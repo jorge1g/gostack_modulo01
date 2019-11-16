@@ -6,7 +6,7 @@ const server = express();
 
 //Habilitando express para JSON no corpo da requisição
 server.use(express.json());
-
+//
 //Query params = ?teste=1
 //Query params = /user/1
 //Request body = { "name": "Diego", "email": "diego@rocketseat.com.br"}
