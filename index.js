@@ -59,7 +59,7 @@ server.get('/users', (req, res) => {
   //_ return res.json(users);
       return res.json(req.users);
 });
-
+//
 //Rota para listar um usuario atraves do index
 //: sinaliza que vai ser recebido um Router Params
 //o index foi inserido devido ao uso do vetor users (posição do nome no array)
